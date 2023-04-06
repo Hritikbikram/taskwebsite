@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.navi
+{
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: repeat(2,1fr);
+  
+
+}
+
+.barside1
+{
+  /* grid-column: span 1; */
+  background-color: red;
+  padding: 10px;
+}
+.barside2
+{
+  display: flex;
+  justify-content: flex-end;
+  /* grid-column: span 5; */
+  background-color: blue;
+ 
+}
+
+.barside2 a
+{
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+
+.box1{
+  background-color: red;
+  grid-row: span 2;
+ }
+.box2{
+  background-color: green;
+  /* grid-row: span 2; */
+}
